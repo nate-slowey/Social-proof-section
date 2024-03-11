@@ -1,0 +1,6 @@
+body{
+    background-color: white;
+    background-image: url('/Users/nate/Desktop/GitHub/social-proof-section-master/images/bg-pattern-top-desktop.svg'), url('/Users/nate/Desktop/GitHub/social-proof-section-master/images/bg-pattern-bottom-desktop.svg');
+    background-repeat: no-repeat, no-repeat;
+    background-position: top left, bottom right; 
+    background-size: auto, auto; 
