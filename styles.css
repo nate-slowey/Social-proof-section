@@ -1,6 +1,130 @@
 body{
+    height: 100vh;
+    width: 100vw;
     background-color: white;
     background-image: url('/Users/nate/Desktop/GitHub/social-proof-section-master/images/bg-pattern-top-desktop.svg'), url('/Users/nate/Desktop/GitHub/social-proof-section-master/images/bg-pattern-bottom-desktop.svg');
     background-repeat: no-repeat, no-repeat;
     background-position: top left, bottom right; 
     background-size: auto, auto; 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+   
+}
+.container{
+    display: grid;
+    grid-template-columns: 26vw 26vw 26vw;
+    grid-template-rows: 26vh 26vh 26vh;
+    width: 80%;
+    height: 80%;
+}
+#head{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    text-align: left;
+    font-size: 60px;
+    color: hsl(300, 43%, 22%);
+
+}
+#under-head{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    text-align: left;
+    font-size: 18px;
+    color: hsl(300, 43%, 22%);
+    align-items: start;
+    margin: 0;
+    margin-top: 5%;
+
+}
+.starbox{
+    grid-column: 2/4;
+    grid-row: 1/2;
+    width: 30vw;
+    height: 6vh;
+    display: flex;
+    background: hsl(300, 24%, 96%);
+    place-self: center;
+    margin-left: 100px;
+    border-radius: 10px;
+    color: hsl(300, 43%, 22%);
+    
+    
+}
+.starbox p{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    width: 80%;
+    height: 100%;
+    margin:0;
+    padding-left: 8%;
+   
+    
+}
+.guru{
+    translate: 50px 80px;
+}
+.bestTech{
+    translate: 100px 160px;
+}
+
+.star-inner{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 30px;
+}
+.box{
+    grid-column: 1/2;
+    grid-row: 3/4;
+    width: 90%;
+    height: 80%;
+    background: hsl(300, 43%, 22%);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box img{
+    display: flex;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    
+}
+#container{
+    display: grid;
+    grid-template-rows: 30% 70%;
+    grid-template-columns: 33% 33% 33%;
+    width: 90%;
+    height: 90%;
+}
+#buyer{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    color: hsl(333, 80%, 67%);
+}
+#name{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    align-self: flex-start;
+    margin: 0;
+    color: white;
+}
+.box p{
+    grid-column: 1/4;
+    color: white;
+}
+
+
+
+.b{
+    translate: 110% 10%;
+}
+ .c{
+    translate: 220% 20%;
+}
